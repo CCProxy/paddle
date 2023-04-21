@@ -1,4 +1,4 @@
-FROM python:2.7.14-stretch
+FROM python:3.10.10-slim
 
 ENV HOME /root
 COPY ./ /root/
