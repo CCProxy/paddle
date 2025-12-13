@@ -4,3 +4,4 @@ namesgenerator==0.3
 paramiko==2.4.1
 scp
 requests
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
